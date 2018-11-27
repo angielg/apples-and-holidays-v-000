@@ -31,19 +31,19 @@ def all_supplies_in_holidays(holiday_hash)
         puts "#{cap_season}:"
   
     holidays_and_supplies.each do |holidays, supplies|
-      binding.pry
-      holiday_string = holidays.to_s
-      holiday_array = holiday_string.split
-      holiday_array.each do |holiday|
-        cap_holiday = holiday.capitalize!
-        puts "#{cap_holiday}: "
+      #binding.pry
+      #holiday_string = holidays.to_s
+      #holiday_array = holiday_string.split
+      #holiday_array.each do |holiday|
+       # cap_holiday = holiday.capitalize!
+        #puts "#{cap_holiday}: "
         
-      end
+      #end
         
-      supplies.each do |supply|
-        cap_supply = supply.capitalize!
-        puts "#{cap_supply}"
-    end
+      #supplies.each do |supply|
+       # cap_supply = supply.capitalize!
+        #puts "#{cap_supply}"
+    #end
         
       end 
     end
