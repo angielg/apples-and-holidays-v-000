@@ -42,6 +42,7 @@ def all_holidays_with_bbq(holiday_hash)
     holidays_and_supplies.collect do |holidays, supplies|
       if supplies.include?("BBQ")
         holiday_hash[:seasons][:holidays].keys
+        binding.pry
         
       end
     end
