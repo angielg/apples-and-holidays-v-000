@@ -36,6 +36,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_array.each do |holiday|
         cap_holiday = holiday.capitalize!
         puts "#{cap_holiday}: "
+        binding.pry
       end
         
       supplies.each do |supply|
