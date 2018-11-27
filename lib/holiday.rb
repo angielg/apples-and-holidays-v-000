@@ -43,6 +43,7 @@ def all_holidays_with_bbq(holiday_hash)
       supplies.collect do |supply| 
         if supply == "BBQ"
         [:holiday_hash][:holidays]
+        end
       end
     end
   end
